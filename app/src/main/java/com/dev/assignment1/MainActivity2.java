@@ -47,6 +47,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             dbHandler.addUser(name,dob,email);
                 Toast.makeText(MainActivity2.this, "User Info Saved", Toast.LENGTH_SHORT).show();
+
             }
         });
 

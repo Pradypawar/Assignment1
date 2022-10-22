@@ -55,7 +55,7 @@ public class DBHandler  extends SQLiteOpenHelper {
         contentValues.put(EMAIL_COL,email);
 
         sqLiteDatabase.insert(TABLE_NAME,null,contentValues);
-        sqLiteDatabase.close();
+
     }
 
 
